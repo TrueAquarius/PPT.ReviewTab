@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="Ribbon_Load">
+	<ribbon>
+		<tabs>
+			<tab id="MyReviewTab" label="Review">
+				<group id="MyGroup" label="Move Slides">
+					<box id="HorizontalLayout" boxStyle="horizontal">
+						<!-- Button to move slides -->
+						<button id="MoveSlidesToEndButton" label="Move To End" onAction="MoveSlidesToEndClicked" />
+					</box>
+				</group>
+				
+				<!-- The DYNAMIC tag will be automatically replaced by function 'CreateDynamicGroups()' in class 'ReviewRibbonTab.cs'.  -->
+				<DYNAMIC />
+
+
+				<group id="GonfigGroup" label="Configuration">
+					<button id="DetachButton" label="Detach" onAction="OnDetachClicked" />
+					<button id="ConfigButton" label="Configuration" onAction="OnConfigurationClicked" />
+					<button id="OutlookCalendarButton" label="Outlook Calendar" onAction="OnOutlookCalendarClicked" />
+				</group>
+			</tab>
+		</tabs>
+	</ribbon>
+</customUI>
+
+

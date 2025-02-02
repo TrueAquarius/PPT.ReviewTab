@@ -7,11 +7,11 @@ using System.Security;
 // Attribute gesteuert. Ändern Sie diese Attributwerte, um die Informationen zu ändern,
 // die einer Assembly zugeordnet sind.
 [assembly: AssemblyTitle("PPT.ReviewTab")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Provides functionality to make reviews easier.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Deutsche Telekom AG")]
+[assembly: AssemblyCompany("True Aquarius")]
 [assembly: AssemblyProduct("PPT.ReviewTab")]
-[assembly: AssemblyCopyright("Copyright © Deutsche Telekom AG 2025")]
+[assembly: AssemblyCopyright("Copyright © True Aquarius 2025")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

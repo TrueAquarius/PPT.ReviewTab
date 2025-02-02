@@ -126,7 +126,7 @@ namespace PPT.ReviewTab.Code.Util
             int gap = 20;
             int width = 150;
 
-            ColorScheme defaultColorScheme = new ColorScheme(new Color("#eee"), new Color("#000"), new Color("#000"));
+            ColorScheme defaultColorScheme = new ColorScheme(new Color(222,222,22), new Color("#000"), new Color("#000"));
 
             return new Configuration
             {

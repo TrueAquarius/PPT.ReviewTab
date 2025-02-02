@@ -57,17 +57,6 @@ namespace PPT.ReviewTab
                     ribbon.InvalidateControl(itemName);
                 }
             }
-
-
-            switch(sender.GetType().Name)
-            {
-                case "Item":
-                    break;
-                case "ItemGroup":
-
-                    break;
-
-            }
         }
 
 
@@ -75,9 +64,9 @@ namespace PPT.ReviewTab
 
 
         /// <summary>
-        /// Dynamically create the content.
+        /// Dynamically create the ribbon content.
         /// </summary>
-        /// <returns></returns>
+        /// <returns>An XML string with the dynamic ribbon content</returns>
         public string CreateDynamicGroups()
         {
             // Generate groups dynamically based on configuration
@@ -204,7 +193,7 @@ namespace PPT.ReviewTab
 
         public void OnOutlookCalendarClicked(IRibbonControl control)
         {
-            List<string> names = OutlookCalendarManager.GetAttendees();
+            List<string> names = OutlookCalendarManager.GetAttendeesFromActiveOutlookCalendarItem();
 
             if (names == null || names.Count == 0) return;
             if (ConfigurationManager.Instance.Configuration == null) return;

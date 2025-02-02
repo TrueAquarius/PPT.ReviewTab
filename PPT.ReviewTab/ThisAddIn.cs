@@ -23,20 +23,11 @@ namespace PPT.ReviewTab
         {
         }
 
-#if true
+
         protected override Microsoft.Office.Core.IRibbonExtensibility CreateRibbonExtensibilityObject()
         {
             return new ReviewRibbonTab();
         }
-#endif
-
-#if false
-        protected override Microsoft.Office.Tools.Ribbon.IRibbonExtension[] CreateRibbonObjects()
-        {
-            ReviewRibbonTab reviewRibbonTab = new ReviewRibbonTab();
-            return new Microsoft.Office.Tools.Ribbon.IRibbonExtension[] { new ReviewTab(), reviewRibbonTab };
-        }
-#endif
 
 
         #region Von VSTO generierter Code

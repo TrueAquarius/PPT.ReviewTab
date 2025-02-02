@@ -24,11 +24,9 @@ You need the following Microsoft Office Products installed on your machine:
 
 
 ## Installation
+See Release Notes for detailed information. If No detailed info available, proced as follows:
 - Download current version to you local machine (any location will do; suggested location is C:\Program Files\True Aquarius\Review Tab)
-- Open MS PowerPoint
-- Open PowerPoint Options (File -> Options)
-- Select "Add Ins"
-- Add the the new review tab
+- Execute Setup.exe
 
 
 ## Usage
